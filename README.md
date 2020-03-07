@@ -30,12 +30,19 @@ a. Validar tambien usando prototype en el front.
 
 Extra
 9. Generar con un installer script un atributo de producto booleano(Yes/No) para activar los comentarios en ese producto.
+
 10. Generar con un installer script un nuevo customer group.
+
 11. Crear un multiselect en system config con la lista de customer groups para habilitar a uno o mas customer groups para comentar.
+
 12. Validar el customer group al momento de comentar utilizando la nueva configuración de grupo y producto.
+
 13. Crear una seccion en my account frontend con la lista de mis comentarios.
+
 14. Crear una grilla en el admin con todos los comentarios.
+
 15. Crear una cms page utilizando un installer script.
+
 16. Actualizar el footer-links static block con un installer script para añadir el link a la nueva cms page.
 
 
