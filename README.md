@@ -18,20 +18,27 @@ This test shouldn't take too long, actually 3 hours is more than enough to compl
 
 
 ## Challenge!
-1. Install the magento in this repository and make it work
-2. Install a custome template on it
-3. Modify the minicart in the custom template to display the customer Name, Email and Address (only when customer is logged in)
-4. Create a custom payment method named "consignacion"
+1. Crear un modulo
+2. En el instalador crear la tabla para los comentarios
+3. Crear model, resourceModel y collection para comentarios
+4. Crear bloque para el formulario de comentario
+5. Crear bloque para mostrar los comentarios
+6. Ubicarlos en la PDP (Product Detail Page)
+7. Crear un controlador y una acción donde procesar la información del formulario
+8. Agregar configuración para el máximo de caracteres por comentario en el admin y verificar esto en el controlador.
+a. Validar tambien usando prototype en el front.
 
-4.1 Custom payment method must have  a configuration value named "Pasos para registrar pago"
-
-4.2 The configuration value must be installed in the module configuration with any value you like just for testing purposes, for example "This is a test"
-5. Custom payment method should be displayed in checkout 
-6. Once custom payment method is selected in checkout the user must be able to enter their bank account details (Name, Number and Bank name) and these details must be stored in the Magento order, also the value of "pasos para registrar pago" must be visible before the form
-
+Extra
+9. Generar con un installer script un atributo de producto booleano(Yes/No) para activar los comentarios en ese producto.
+10. Generar con un installer script un nuevo customer group.
+11. Crear un multiselect en system config con la lista de customer groups para habilitar a uno o mas customer groups para comentar.
+12. Validar el customer group al momento de comentar utilizando la nueva configuración de grupo y producto.
+13. Crear una seccion en my account frontend con la lista de mis comentarios.
+14. Crear una grilla en el admin con todos los comentarios.
+15. Crear una cms page utilizando un installer script.
+16. Actualizar el footer-links static block con un installer script para añadir el link a la nueva cms page.
 
 
 ## Questions or thoughs channels
-1. Contact me through workana
-2. Contact me to jrestr29 skype
-3. Email me to josda6486@gmail.com
+1. Contact me to jrestr29 skype
+2. Email me to josda6486@gmail.com
